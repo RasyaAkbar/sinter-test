@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
+import Link from "next/link";
 
 type Props = {};
 
