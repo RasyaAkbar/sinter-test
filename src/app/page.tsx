@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="relative animate-float">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 to-pink-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <Image
+            <img
               src="./images/Documentation/Documentation3.JPG"
               alt="Documentation"
               className="relative w-full rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-500"
@@ -92,7 +92,7 @@ export default function Home() {
               key={index}
               className="group relative overflow-hidden rounded-xl"
             >
-              <Image
+              <img
                 src={img}
                 alt={`Documentation ${index + 1}`}
                 className="w-full h-64 object-cover transform transition-all duration-500 group-hover:scale-110"
