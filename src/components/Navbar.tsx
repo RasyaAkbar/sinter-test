@@ -10,7 +10,7 @@ const Navbar = (props: Props) => {
     <nav className="bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm shadow-lg fixed w-full z-50 transition-all duration-300">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center space-x-3">
-          <img src="/images/logo.png" alt="Class Logo" width={40} height={40} />
+          <img src="./images/logo.png" alt="Class Logo" width={40} height={40} />
           <span className="text-lg font-semibold dark:text-white">
             Sinter 47 International Class
           </span>

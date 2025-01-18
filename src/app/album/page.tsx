@@ -8,7 +8,7 @@ export default function Album() {
     {
       name: "Rasya Akbar Lazuardi",
       role: "Class Member",
-      image: "/images/Personimage/Akbar.jpg",
+      image: "./images/Personimage/Akbar.jpg",
       description: "Information System enthusiast with a passion for AI",
       socialLinks: {
         instagram: "#",
